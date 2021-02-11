@@ -6,7 +6,7 @@ class Paper {
         friction:0.5,
         density:1.2
     }
-    this.body= Matter.Bodies.circle(x,y,diameter,options,maxSides)
+    this.body= Matter.Bodies.circle(x,y,diameter,options)
     this.diameter=diameter
     World.add(world,this.body)
 }
